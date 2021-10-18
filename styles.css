@@ -51,25 +51,9 @@ body {
 .buttons {
   margin:5% 3% 5% 0;
 }
-.iphone-size{
-  width:60%;
-  transform:rotate(-25deg);
-}
-.feat{
-padding:20px 90px;
-text-align: center;
-}
-.features-title{
-  font-family:"Montserrat-bold";
-  font-size: 2rem;
-}
-.explain{
-  color:grey;
-}
-.flaticons
-{
-  width:20%;
-  height:40%;
+.new{
+  text-align: center;
+  padding: 20%;
 }
 .plan{
 font-weight: bold;
@@ -93,32 +77,6 @@ font-weight: bold;
 #pricing{
 text-align: center;
   padding:20px 50px 20px 50px;
-}
-#features{
-  background-color: #fff;
-  position:relative;
-  z-index: 1;
-}
-@media(max-width:975px) {
-.iphone
-  {
-  position:static;
-  padding top:50px;
-  transform:rotate(0);
-  padding-left:0;
-  }
-  .brand{
-   margin-left:0;
-   padding-left:10px;
-   font-family: sans-serif;
-   font-weight: bold;
-  }
-#title{
-  text-align: center;
-}
-.intro{
-  padding:0;
-}
 }
 #cta{
   background-color: #51050F;
@@ -144,10 +102,10 @@ text-align: center;
   font-size: 3rem;
 }
 .premium{
-height: 15.625rem;
-width:  18.75rem;
-border-radius: 100%;
-margin-top:0;
+height: 12rem;
+width:  15rem;
+position: relative;
+margin: auto;
 }
 .meet1:hover{
   background-color: black;
@@ -186,6 +144,6 @@ margin-top:0;
   width:300px;
 }
 #home{
-  padding-left:2rem; 
+  padding-left:2rem;
 }
 }
